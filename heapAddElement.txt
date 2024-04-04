@@ -1,0 +1,12 @@
+
+Inserted value two - 5
+Inserted value words - 1
+Inserted value turtle - 8
+Inserted value cpu - 9
+Inserted value frog - 2
+
+Creation of heap complete.
+
+
+
+Value inserted to the heap: 12 - twelver[(words, 1); (frog, 2); (turtle, 8); (cpu, 9); (two, 5); (twelver, 12)]

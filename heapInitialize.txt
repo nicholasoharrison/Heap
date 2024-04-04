@@ -1,0 +1,10 @@
+
+Inserted value two - 5
+Inserted value words - 1
+Inserted value turtle - 8
+Inserted value cpu - 9
+Inserted value frog - 2
+
+Creation of heap complete.
+
+

@@ -1,0 +1,14 @@
+
+Inserted value two - 5
+Inserted value words - 1
+Inserted value turtle - 8
+Inserted value cpu - 9
+Inserted value frog - 2
+
+Creation of heap complete.
+
+
+
+Value inserted to the heap: 6 - table[(words, 1); (frog, 2); (table, 6); (cpu, 9); (two, 5); (turtle, 8)]
+Value at the top of the heap: 1 - words
+Value removed from the top of the heap: 1 - words[(frog, 2); (two, 5); (table, 6); (cpu, 9); (turtle, 8)]

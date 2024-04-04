@@ -1,0 +1,9 @@
+
+Empty Input File - No Inserts Performed
+
+
+Creation of heap complete.
+
+
+
+Attempt to remove element from empty heap

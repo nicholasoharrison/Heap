@@ -1,0 +1,12 @@
+3 one
+5 two
+1 words
+8 turtle
+9 cpu
+2 frog
+17 go
+62 keyboard
+13 cups
+53 red water
+27 mouse
+

@@ -1,0 +1,10 @@
+
+Empty Input File - No Inserts Performed
+
+
+Creation of heap complete.
+
+
+
+Value inserted to the heap: 1 - one
+[(one, 1)]
