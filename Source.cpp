@@ -52,29 +52,15 @@ int main() {
         return 1;
     }
 
-
-
-
     cout << "\n\n\n";
-
 
     // Input file reading
     string line;
-    if (inputFile.peek() == ifstream::traits_type::eof()) {
-        outputFile << "\nEmpty Input File - No Inserts Performed" << endl;
-    }
     priorityData insertData;
-    while (getline(inputFile, line)) {
-
-        int priority;
-        string dataStr;
-        while (inputFile >> priority >> dataStr) {
-            outputFile << "\nValue inserted to the heap: " << priority << " - " << dataStr;
-            outputFile << "\n\tCurrent size: " << pQueue.getCurrentSize() << ", capacity: " << pQueue.getCapacity();
-            insertData.priorityValue = priority;
-            insertData.dataValue = dataStr;
-            pQueue.addInitialValues(insertData);
-        }
+    while (inputFile >> insertData.priorityValue >> insertData.dataValue) {
+        outputFile << "\nValue inserted to the heap: " << insertData.priorityValue << " - " << insertData.dataValue;
+        outputFile << "\n\tCurrent size: " << pQueue.getCurrentSize() << ", capacity: " << pQueue.getCapacity();
+        pQueue.addInitialValues(insertData);
     }
 
 

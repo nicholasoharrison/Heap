@@ -1,0 +1,34 @@
+
+Value inserted to the heap: 3 - worker
+	Current size: 0, capacity: 2
+Value inserted to the heap: 9 - blue
+	Current size: 1, capacity: 2
+
+Creation of heap complete.
+
+
+
+[(worker, 3);
+(blue, 9)]
+
+
+
+
+[(worker, 3);
+(blue, 9)]
+
+Value inserted to the heap: 44 - string
+[(worker, 3);
+(blue, 9);
+(string, 44)]
+
+Value removed from the top of the heap: 3 - worker
+[(blue, 9);
+(string, 44)]
+
+Value removed from the top of the heap: 9 - blue
+[(string, 44)]
+
+Value inserted to the heap: 44 - stringNumber2
+[(string, 44);
+(stringNumber2, 44)]

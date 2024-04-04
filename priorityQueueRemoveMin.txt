@@ -1,0 +1,46 @@
+
+Value inserted to the heap: 5 - two
+	Current size: 0, capacity: 3
+Value inserted to the heap: 1 - words
+	Current size: 1, capacity: 3
+Value inserted to the heap: 8 - turtle
+	Current size: 2, capacity: 3
+Value inserted to the heap: 9 - cpu
+	Current size: 3, capacity: 3
+Value inserted to the heap: 2 - frog
+	Current size: 4, capacity: 6
+Value inserted to the heap: 17 - go
+	Current size: 5, capacity: 6
+Value inserted to the heap: 62 - keyboard
+	Current size: 6, capacity: 6
+Value inserted to the heap: 13 - cups
+	Current size: 7, capacity: 12
+Value inserted to the heap: 53 - red
+	Current size: 8, capacity: 12
+
+Creation of heap complete.
+
+
+
+[(words, 1);
+(frog, 2);
+(turtle, 8);
+(cpu, 9);
+(two, 5);
+(go, 17);
+(keyboard, 62);
+(cups, 13);
+(red, 53)]
+
+
+
+
+Value removed from the top of the heap: 1 - words
+[(frog, 2);
+(two, 5);
+(turtle, 8);
+(cpu, 9);
+(red, 53);
+(go, 17);
+(keyboard, 62);
+(cups, 13)]

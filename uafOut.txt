@@ -1,0 +1,80 @@
+
+
+Creation of heap complete.
+
+
+
+[The heap is empty]
+
+
+
+Attempt to remove element from empty heap
+Value inserted to the heap: 23 - having
+	Current size: 1, capacity: 2
+[(having, 23)]
+
+Value inserted to the heap: 22 - building
+	Current size: 2, capacity: 2
+[(building, 22);
+(having, 23)]
+
+Value at the top of the heap: 22 - building
+[(building, 22);
+(having, 23)]
+
+Value removed from the top of the heap: 22 - building
+	Current size: 2, capacity: 2
+[(having, 23)]
+
+Value inserted to the heap: 22 - out
+	Current size: 2, capacity: 2
+[(out, 22);
+(having, 23)]
+
+Value inserted to the heap: 23 - internet
+	Current size: 3, capacity: 4
+[(out, 22);
+(having, 23);
+(internet, 23)]
+
+Value inserted to the heap: 12 - side
+	Current size: 4, capacity: 4
+[(side, 12);
+(out, 22);
+(internet, 23);
+(having, 23)]
+
+Value removed from the top of the heap: 12 - side
+	Current size: 4, capacity: 4
+[(out, 22);
+(having, 23);
+(internet, 23)]
+
+Value removed from the top of the heap: 22 - out
+	Current size: 3, capacity: 4
+[(internet, 23);
+(having, 23)]
+
+[(internet, 23);
+(having, 23)]
+
+Value at the top of the heap: 23 - internet
+Value inserted to the heap: 24 - twenty-four
+[(internet, 23);
+(having, 23);
+(twenty-four, 24)]
+
+Value at the top of the heap: 23 - internet
+[(internet, 23);
+(having, 23);
+(twenty-four, 24)]
+
+Value removed from the top of the heap: 23 - internet
+[(having, 23);
+(twenty-four, 24)]
+
+[(having, 23);
+(twenty-four, 24)]
+
+Value removed from the top of the heap: 23 - having
+[(twenty-four, 24)]

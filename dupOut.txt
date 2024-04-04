@@ -1,0 +1,75 @@
+
+Value inserted to the heap: 5 - five1
+	Current size: 0, capacity: 2
+Value inserted to the heap: 5 - five2
+	Current size: 1, capacity: 2
+Value inserted to the heap: 5 - five3
+	Current size: 2, capacity: 2
+Value inserted to the heap: 1 - one
+	Current size: 3, capacity: 4
+Value inserted to the heap: 6 - six1
+	Current size: 4, capacity: 4
+Value inserted to the heap: 7 - seven
+	Current size: 5, capacity: 8
+Value inserted to the heap: 6 - six2
+	Current size: 6, capacity: 8
+
+Creation of heap complete.
+
+
+
+[(one, 1);
+(five1, 5);
+(five3, 5);
+(five2, 5);
+(six1, 6);
+(seven, 7);
+(six2, 6)]
+
+
+
+
+Value inserted to the heap: 5 - fiveAgain
+	Current size: 8, capacity: 8
+[(one, 1);
+(five1, 5);
+(five3, 5);
+(five2, 5);
+(six1, 6);
+(seven, 7);
+(six2, 6);
+(fiveAgain, 5)]
+
+Value at the top of the heap: 1 - one
+Value removed from the top of the heap: 1 - one
+	Current size: 8, capacity: 8
+[(fiveAgain, 5);
+(five1, 5);
+(five3, 5);
+(five2, 5);
+(six1, 6);
+(seven, 7);
+(six2, 6)]
+
+Value removed from the top of the heap: 5 - fiveAgain
+	Current size: 7, capacity: 8
+[(five1, 5);
+(five2, 5);
+(five3, 5);
+(six2, 6);
+(six1, 6);
+(seven, 7)]
+
+Value removed from the top of the heap: 5 - five1
+	Current size: 6, capacity: 8
+[(five2, 5);
+(six2, 6);
+(five3, 5);
+(seven, 7);
+(six1, 6)]
+
+[(five2, 5);
+(six2, 6);
+(five3, 5);
+(seven, 7);
+(six1, 6)]

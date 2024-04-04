@@ -1,0 +1,56 @@
+
+Value inserted to the heap: 7 - disk
+	Current size: 0, capacity: 4
+Value inserted to the heap: 2 - at
+	Current size: 1, capacity: 4
+Value inserted to the heap: 4 - there
+	Current size: 2, capacity: 4
+Value inserted to the heap: 9 - sink
+	Current size: 3, capacity: 4
+
+Creation of heap complete.
+
+
+
+[(at, 2);
+(disk, 7);
+(there, 4);
+(sink, 9)]
+
+
+
+
+Value removed from the top of the heap: 2 - at
+	Current size: 4, capacity: 4
+[(there, 4);
+(disk, 7);
+(sink, 9)]
+
+Value inserted to the heap: 1 - flower
+	Current size: 4, capacity: 4
+[(flower, 1);
+(there, 4);
+(sink, 9);
+(disk, 7)]
+
+Value inserted to the heap: 9 - operation
+	Current size: 5, capacity: 8
+[(flower, 1);
+(there, 4);
+(sink, 9);
+(disk, 7);
+(operation, 9)]
+
+Value at the top of the heap: 1 - flower
+[(flower, 1);
+(there, 4);
+(sink, 9);
+(disk, 7);
+(operation, 9)]
+
+Value removed from the top of the heap: 1 - flower
+	Current size: 5, capacity: 8
+[(there, 4);
+(disk, 7);
+(sink, 9);
+(operation, 9)]
