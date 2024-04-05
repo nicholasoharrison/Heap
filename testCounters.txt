@@ -1,0 +1,140 @@
+
+Value inserted to the heap: 5 - two
+	Current size: 0, capacity: 3
+Value inserted to the heap: 1 - words
+	Current size: 1, capacity: 3
+Value inserted to the heap: 8 - turtle
+	Current size: 2, capacity: 3
+Value inserted to the heap: 9 - cpu
+	Current size: 3, capacity: 3
+Value inserted to the heap: 2 - frog
+	Current size: 4, capacity: 6
+Value inserted to the heap: 17 - go
+	Current size: 5, capacity: 6
+Value inserted to the heap: 62 - keyboard
+	Current size: 6, capacity: 6
+Value inserted to the heap: 13 - cups
+	Current size: 7, capacity: 12
+Value inserted to the heap: 53 - red
+	Current size: 8, capacity: 12
+
+Creation of heap complete.
+
+
+
+[(words, 1);
+(frog, 2);
+(turtle, 8);
+(cpu, 9);
+(two, 5);
+(go, 17);
+(keyboard, 62);
+(cups, 13);
+(red, 53)]
+
+
+
+
+Value inserted to the heap: 5 - stringHere
+	Current size: 10, capacity: 12
+[(words, 1);
+(frog, 2);
+(turtle, 8);
+(cpu, 9);
+(two, 5);
+(go, 17);
+(keyboard, 62);
+(cups, 13);
+(red, 53);
+(stringHere, 5)]
+
+Value at the top of the heap: 1 - words
+[(words, 1);
+(frog, 2);
+(turtle, 8);
+(cpu, 9);
+(two, 5);
+(go, 17);
+(keyboard, 62);
+(cups, 13);
+(red, 53);
+(stringHere, 5)]
+
+Value at the top of the heap: 1 - words
+Value inserted to the heap: 6 - stringTwo
+	Current size: 11, capacity: 12
+[(words, 1);
+(frog, 2);
+(turtle, 8);
+(cpu, 9);
+(two, 5);
+(go, 17);
+(keyboard, 62);
+(cups, 13);
+(red, 53);
+(stringHere, 5);
+(stringTwo, 6)]
+
+Value inserted to the heap: 2 - twins
+[(words, 1);
+(frog, 2);
+(twins, 2);
+(cpu, 9);
+(two, 5);
+(turtle, 8);
+(keyboard, 62);
+(cups, 13);
+(red, 53);
+(stringHere, 5);
+(stringTwo, 6);
+(go, 17)]
+
+Value at the top of the heap: 1 - words
+Value removed from the top of the heap: 1 - words
+[(frog, 2);
+(two, 5);
+(twins, 2);
+(cpu, 9);
+(stringHere, 5);
+(turtle, 8);
+(keyboard, 62);
+(cups, 13);
+(red, 53);
+(go, 17);
+(stringTwo, 6)]
+
+Value removed from the top of the heap: 2 - frog
+[(twins, 2);
+(two, 5);
+(stringTwo, 6);
+(cpu, 9);
+(stringHere, 5);
+(turtle, 8);
+(keyboard, 62);
+(cups, 13);
+(red, 53);
+(go, 17)]
+
+Value inserted to the heap: 1 - oneAgain
+[(oneAgain, 1);
+(twins, 2);
+(stringTwo, 6);
+(cpu, 9);
+(two, 5);
+(turtle, 8);
+(keyboard, 62);
+(cups, 13);
+(red, 53);
+(go, 17);
+(stringHere, 5)]
+
+Value at the top of the heap: 1 - oneAgain
+Total number of Inserts – Initialization                                 9
+Total number of heap - down actions – Initialization                     5
+Total number of user requested Inserts                                   4
+Total number of user requested Removes                                   0
+Total number of user requested Return top                                0
+Total number of user requested Print                                     0
+Total number of heap actions for user actions                            9
+	Total number of heap - up actions                               5
+	Total number of heap - down actions                             10

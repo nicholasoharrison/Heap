@@ -146,6 +146,7 @@ int main() {
                             if (pQueue.getCurrentSize() != 0) {
                                 cout << "\nValue at the top of the heap: " << pQueue.returnMin().priorityValue << " - " << pQueue.returnMin().dataValue;
                                 outputFile << "\nValue at the top of the heap: " << pQueue.returnMin().priorityValue << " - " << pQueue.returnMin().dataValue;
+                                pQueue.counters[4]++; // Requested return minimum value (from actions file or user)
                             }
                             else {
                                 cout << "\nAttempt to remove element from empty heap";
@@ -156,6 +157,7 @@ int main() {
                         case 'A':
                             cout << pQueue.toString();
                             outputFile << pQueue.toString();
+                            pQueue.counters[5]++;
                             break;
 
                         default:
@@ -217,6 +219,7 @@ int main() {
                 if (pQueue.getCurrentSize() != 0) {
                     cout << "\nValue at the top of the heap: " << pQueue.returnMin().priorityValue << " - " << pQueue.returnMin().dataValue;
                     outputFile << "\nValue at the top of the heap: " << pQueue.returnMin().priorityValue << " - " << pQueue.returnMin().dataValue;
+                    pQueue.counters[4]++; // Requested return minimum value (from actions file or user)
                 }
                 else {
                     cout << "\nAttempt to remove element from empty heap";
@@ -226,6 +229,7 @@ int main() {
             case 'A':
                 cout << pQueue.toString();
                 outputFile << pQueue.toString();
+                pQueue.counters[5]++;
                 break;
             default:
                 cout << "\nInvalid action code." << endl;
@@ -239,6 +243,18 @@ int main() {
             }
         }
     }
+
+    outputFile << "\n\n\n\n";
+    outputFile<<"\nTotal number of Inserts - Initialization                                 " << pQueue.counters[0];
+    outputFile<<"\nTotal number of heap - down actions - Initialization                     " << pQueue.counters[1];
+    outputFile<<"\nTotal number of user requested Inserts                                   " << pQueue.counters[2];
+    outputFile<<"\nTotal number of user requested Removes                                   " << pQueue.counters[3];
+    outputFile<<"\nTotal number of user requested Return top                                " << pQueue.counters[4];
+    outputFile<<"\nTotal number of user requested Print                                     " << pQueue.counters[5];
+    outputFile<<"\nTotal number of heap actions for user actions                            " << pQueue.counters[0];
+    outputFile<<"\n\tTotal number of heap - up actions                                " << pQueue.counters[7];
+    outputFile<<"\n\tTotal number of heap - down actions                              " << pQueue.counters[8];
+
 
 
     // Close output file

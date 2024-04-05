@@ -1,0 +1,74 @@
+
+
+Creation of heap complete.
+
+
+
+[The heap is empty]
+
+
+
+Attempt to remove element from empty heap
+Value inserted to the heap: 23 - having
+	Current size: 1, capacity: 2
+[(having, 23)]
+
+Value inserted to the heap: 22 - building
+	Current size: 2, capacity: 2
+[(building, 22);
+(having, 23)]
+
+Value at the top of the heap: 22 - building
+[(building, 22);
+(having, 23)]
+
+Value removed from the top of the heap: 22 - building
+	Current size: 2, capacity: 2
+[(having, 23)]
+
+Value inserted to the heap: 22 - out
+	Current size: 2, capacity: 2
+[(out, 22);
+(having, 23)]
+
+Value inserted to the heap: 23 - internet
+	Current size: 3, capacity: 4
+[(out, 22);
+(having, 23);
+(internet, 23)]
+
+Value inserted to the heap: 12 - side
+	Current size: 4, capacity: 4
+[(side, 12);
+(out, 22);
+(internet, 23);
+(having, 23)]
+
+Value removed from the top of the heap: 12 - side
+	Current size: 4, capacity: 4
+[(out, 22);
+(having, 23);
+(internet, 23)]
+
+Value removed from the top of the heap: 22 - out
+	Current size: 3, capacity: 4
+[(internet, 23);
+(having, 23)]
+
+[(internet, 23);
+(having, 23)]
+
+Value at the top of the heap: 23 - internet
+
+
+
+
+Total number of Inserts - Initialization                                 0
+Total number of heap - down actions - Initialization                     0
+Total number of user requested Inserts                                   5
+Total number of user requested Removes                                   3
+Total number of user requested Return top                                2
+Total number of user requested Print                                     2
+Total number of heap actions for user actions                            0
+	Total number of heap - up actions                                4
+	Total number of heap - down actions                              1

@@ -21,6 +21,7 @@ protected:
 
     void heapUp(int index) {
         while (index > 1 && heapArray[index].priorityValue < heapArray[index / 2].priorityValue) {
+            counters[7]++; // Total heap up actions
             swap(heapArray[index], heapArray[index / 2]);
             index /= 2;
         }
@@ -35,6 +36,7 @@ protected:
             }
             if (heapArray[index].priorityValue > heapArray[child1].priorityValue) {
                 swap(heapArray[index], heapArray[child1]);
+                counters[8]++; // Total heap down actions
             }
             else {
                 break;
@@ -45,6 +47,7 @@ protected:
 
 public:
 
+    int counters[9];
 
     int getCurrentSize() {
         return currentSize;
@@ -59,6 +62,9 @@ public:
         capacity = initialCapacity;
         if (initialCapacity == 0) {
             capacity = 10; // Default size of 10
+        }
+        for (int i = 0; i < 9; i++) {
+            counters[i] = 0;
         }
         currentSize = 0;
         heapArray = new priorityData[capacity + 1]; // Index 0 is not used
@@ -88,6 +94,7 @@ public:
         // Add the new element to the array
         currentSize++;
         heapArray[currentSize] = p;
+        counters[0]++;
     }
 
 
@@ -97,6 +104,7 @@ public:
         for (int i = currentSize / 2; i >= 1; i--) {
             heapDown(i);
         }
+        counters[1] = counters[8]; // Stores total heap down actions up to this point which is only initialization
     }
 
 
@@ -116,6 +124,7 @@ public:
         }
         // Add the new element at the end
         currentSize++;
+        counters[2]++; // Requested inserts (from actions file or user)
         heapArray[currentSize] = p;
         // Restore heap by heaping up
         heapUp(currentSize);
@@ -130,6 +139,7 @@ public:
         // Swap root with the last element
         swap(heapArray[1], heapArray[currentSize]);
         currentSize--;
+        counters[3]++; // Requested removes (from actions file or user)
         // Restore heap property
         heapDown(1);
         return heapArray[currentSize + 1];
@@ -141,6 +151,7 @@ public:
         if (currentSize == 0) {
             throw "Attempt to return element from empty heap";
         }
+        // Counter in Source.cpp since testing calls this function in cases other than returnMin
         return heapArray[1];
     }
 
@@ -157,6 +168,7 @@ public:
                 result += ";\n";
             }
         }
+        // Counter is in Source.cpp since testing calls this function multiple other times
         result += "]\n";
         return result;
     }

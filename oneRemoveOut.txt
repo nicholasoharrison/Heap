@@ -1,0 +1,50 @@
+
+Value inserted to the heap: 3 - red
+	Current size: 0, capacity: 1
+Value inserted to the heap: 1 - green
+	Current size: 1, capacity: 1
+Value inserted to the heap: 5 - blue
+	Current size: 2, capacity: 2
+Value inserted to the heap: 2 - yellow
+	Current size: 3, capacity: 4
+
+Creation of heap complete.
+
+
+
+[(green, 1);
+(yellow, 2);
+(blue, 5);
+(red, 3)]
+
+
+
+
+Value inserted to the heap: 1 - only_insert
+	Current size: 5, capacity: 8
+[(green, 1);
+(only_insert, 1);
+(blue, 5);
+(red, 3);
+(yellow, 2)]
+
+Value removed from the top of the heap: 1 - green
+	Current size: 5, capacity: 8
+[(only_insert, 1);
+(yellow, 2);
+(blue, 5);
+(red, 3)]
+
+
+
+
+
+Total number of Inserts - Initialization                                 4
+Total number of heap - down actions - Initialization                     2
+Total number of user requested Inserts                                   1
+Total number of user requested Removes                                   1
+Total number of user requested Return top                                0
+Total number of user requested Print                                     0
+Total number of heap actions for user actions                            4
+	Total number of heap - up actions                               1
+	Total number of heap - down actions                             3
