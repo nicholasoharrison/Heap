@@ -1,0 +1,175 @@
+
+Value inserted to the heap: 37 - chair
+	Current size: 0, capacity: 10
+Value inserted to the heap: 92 - book
+	Current size: 1, capacity: 10
+Value inserted to the heap: 18 - lamp
+	Current size: 2, capacity: 10
+Value inserted to the heap: 63 - computer
+	Current size: 3, capacity: 10
+Value inserted to the heap: 55 - table
+	Current size: 4, capacity: 10
+Value inserted to the heap: 77 - pencil
+	Current size: 5, capacity: 10
+Value inserted to the heap: 84 - clock
+	Current size: 6, capacity: 10
+Value inserted to the heap: 49 - camera
+	Current size: 7, capacity: 10
+Value inserted to the heap: 23 - umbrella
+	Current size: 8, capacity: 10
+Value inserted to the heap: 68 - keyboard
+	Current size: 9, capacity: 10
+Value inserted to the heap: 91 - glasses
+	Current size: 10, capacity: 10
+Value inserted to the heap: 42 - microphone
+	Current size: 11, capacity: 20
+Value inserted to the heap: 15 - hat
+	Current size: 12, capacity: 20
+Value inserted to the heap: 72 - shoe
+	Current size: 13, capacity: 20
+Value inserted to the heap: 29 - television
+	Current size: 14, capacity: 20
+Value inserted to the heap: 57 - mug
+	Current size: 15, capacity: 20
+Value inserted to the heap: 88 - wallet
+	Current size: 16, capacity: 20
+Value inserted to the heap: 34 - guitar
+	Current size: 17, capacity: 20
+Value inserted to the heap: 61 - mirror
+	Current size: 18, capacity: 20
+Value inserted to the heap: 83 - scissors
+	Current size: 19, capacity: 20
+Value inserted to the heap: 47 - bag
+	Current size: 20, capacity: 20
+Value inserted to the heap: 75 - pillow
+	Current size: 21, capacity: 40
+Value inserted to the heap: 11 - marker
+	Current size: 22, capacity: 40
+Value inserted to the heap: 66 - blanket
+	Current size: 23, capacity: 40
+Value inserted to the heap: 39 - headphones
+	Current size: 24, capacity: 40
+Value inserted to the heap: 78 - calendar
+	Current size: 25, capacity: 40
+Value inserted to the heap: 25 - phone
+	Current size: 26, capacity: 40
+Value inserted to the heap: 69 - vase
+	Current size: 27, capacity: 40
+Value inserted to the heap: 53 - socks
+	Current size: 28, capacity: 40
+Value inserted to the heap: 86 - pen
+	Current size: 29, capacity: 40
+Value inserted to the heap: 31 - watch
+	Current size: 30, capacity: 40
+Value inserted to the heap: 58 - ruler
+	Current size: 31, capacity: 40
+Value inserted to the heap: 79 - stapler
+	Current size: 32, capacity: 40
+Value inserted to the heap: 44 - paper
+	Current size: 33, capacity: 40
+Value inserted to the heap: 14 - scissors
+	Current size: 34, capacity: 40
+Value inserted to the heap: 71 - towel
+	Current size: 35, capacity: 40
+Value inserted to the heap: 26 - coat
+	Current size: 36, capacity: 40
+Value inserted to the heap: 87 - remote
+	Current size: 37, capacity: 40
+Value inserted to the heap: 59 - notebook
+	Current size: 38, capacity: 40
+Value inserted to the heap: 33 - soap
+	Current size: 39, capacity: 40
+Value inserted to the heap: 65 - frame
+	Current size: 40, capacity: 40
+Value inserted to the heap: 82 - wallet
+	Current size: 41, capacity: 80
+Value inserted to the heap: 38 - calendar
+	Current size: 42, capacity: 80
+Value inserted to the heap: 52 - umbrella
+	Current size: 43, capacity: 80
+Value inserted to the heap: 94 - camera
+	Current size: 44, capacity: 80
+Value inserted to the heap: 76 - calculator
+	Current size: 45, capacity: 80
+Value inserted to the heap: 22 - brush
+	Current size: 46, capacity: 80
+Value inserted to the heap: 73 - mirror
+	Current size: 47, capacity: 80
+Value inserted to the heap: 46 - headphones
+	Current size: 48, capacity: 80
+Value inserted to the heap: 1 - nick
+	Current size: 49, capacity: 80
+
+Creation of heap complete.
+
+
+
+[(nick, 1);
+(marker, 11);
+(hat, 15);
+(scissors, 14);
+(brush, 22);
+(lamp, 18);
+(television, 29);
+(paper, 44);
+(umbrella, 23);
+(soap, 33);
+(umbrella, 52);
+(headphones, 39);
+(phone, 25);
+(socks, 53);
+(watch, 31);
+(mug, 57);
+(camera, 49);
+(coat, 26);
+(notebook, 59);
+(frame, 65);
+(calendar, 38);
+(pillow, 75);
+(table, 55);
+(headphones, 46);
+(microphone, 42);
+(calendar, 78);
+(chair, 37);
+(vase, 69);
+(shoe, 72);
+(pen, 86);
+(clock, 84);
+(ruler, 58);
+(stapler, 79);
+(computer, 63);
+(wallet, 88);
+(towel, 71);
+(guitar, 34);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(wallet, 82);
+(bag, 47);
+(book, 92);
+(camera, 94);
+(calculator, 76);
+(glasses, 91);
+(mirror, 73);
+(blanket, 66);
+(pencil, 77)]
+
+
+
+
+Error opening action file!
+
+
+
+
+
+Total number of Inserts - Initialization                                 50
+Total number of heap - down actions - Initialization                     37
+Total number of user requested Inserts                                   0
+Total number of user requested Removes                                   0
+Total number of user requested Return top                                0
+Total number of user requested Print                                     0
+Total number of heap actions for user actions                            37
+	Total number of heap - up actions                                0
+	Total number of heap - down actions                              37

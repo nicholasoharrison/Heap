@@ -1,0 +1,45 @@
+
+Value inserted to the heap: 5 - two
+	Current size: 0, capacity: 2
+Value inserted to the heap: 1 - words
+	Current size: 1, capacity: 2
+Value inserted to the heap: 8 - turtle
+	Current size: 2, capacity: 2
+
+Creation of heap complete.
+
+
+
+[(words, 1);
+(two, 5);
+(turtle, 8)]
+
+
+
+
+Value inserted to the heap: 34 - we...
+[(words, 1);
+(two, 5);
+(turtle, 8);
+(we..., 34)]
+
+Value inserted to the heap: 54 - qwerty
+[(words, 1);
+(two, 5);
+(turtle, 8);
+(we..., 34);
+(qwerty, 54)]
+
+
+
+
+
+Total number of Inserts - Initialization                                 3
+Total number of heap - down actions - Initialization                     1
+Total number of user requested Inserts                                   2
+Total number of user requested Removes                                   0
+Total number of user requested Return top                                0
+Total number of user requested Print                                     0
+Total number of heap actions for user actions                            1
+	Total number of heap - up actions                                0
+	Total number of heap - down actions                              1

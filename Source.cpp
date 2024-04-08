@@ -190,6 +190,12 @@ int main() {
                 string strData;
                 cout << "\nEnter priority value: ";
                 cin >> priorityValue;
+                while (cin.fail()) {
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    cout << "Invalid input. Please enter an integer value: ";
+                    cin >> priorityValue;
+                }
                 cout << "\nEnter data string: ";
                 cin.ignore();
                 getline(cin, strData);
@@ -251,7 +257,7 @@ int main() {
     outputFile<<"\nTotal number of user requested Removes                                   " << pQueue.counters[3];
     outputFile<<"\nTotal number of user requested Return top                                " << pQueue.counters[4];
     outputFile<<"\nTotal number of user requested Print                                     " << pQueue.counters[5];
-    outputFile<<"\nTotal number of heap actions for user actions                            " << pQueue.counters[0];
+    outputFile<<"\nTotal number of heap actions for user actions                            " << pQueue.counters[7] + pQueue.counters[8];
     outputFile<<"\n\tTotal number of heap - up actions                                " << pQueue.counters[7];
     outputFile<<"\n\tTotal number of heap - down actions                              " << pQueue.counters[8];
 

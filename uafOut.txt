@@ -1,80 +1,121 @@
 
+Value inserted to the heap: 62 - keyboard
+	Current size: 0, capacity: 4
+Value inserted to the heap: 13 - cups
+	Current size: 1, capacity: 4
+Value inserted to the heap: 53 - red
+	Current size: 2, capacity: 4
 
 Creation of heap complete.
 
 
 
-[The heap is empty]
+[(cups, 13);
+(keyboard, 62);
+(red, 53)]
 
 
 
-Attempt to remove element from empty heap
+
+Value removed from the top of the heap: 13 - cups
+	Current size: 3, capacity: 4
+[(red, 53);
+(keyboard, 62)]
+
 Value inserted to the heap: 23 - having
-	Current size: 1, capacity: 2
-[(having, 23)]
+	Current size: 3, capacity: 4
+[(having, 23);
+(keyboard, 62);
+(red, 53)]
 
 Value inserted to the heap: 22 - building
-	Current size: 2, capacity: 2
+	Current size: 4, capacity: 4
 [(building, 22);
-(having, 23)]
+(having, 23);
+(red, 53);
+(keyboard, 62)]
 
 Value at the top of the heap: 22 - building
 [(building, 22);
-(having, 23)]
+(having, 23);
+(red, 53);
+(keyboard, 62)]
 
 Value removed from the top of the heap: 22 - building
-	Current size: 2, capacity: 2
-[(having, 23)]
+	Current size: 4, capacity: 4
+[(having, 23);
+(keyboard, 62);
+(red, 53)]
 
 Value inserted to the heap: 22 - out
-	Current size: 2, capacity: 2
-[(out, 22);
-(having, 23)]
-
-Value inserted to the heap: 23 - internet
-	Current size: 3, capacity: 4
+	Current size: 4, capacity: 4
 [(out, 22);
 (having, 23);
+(red, 53);
+(keyboard, 62)]
+
+Value inserted to the heap: 23 - internet
+	Current size: 5, capacity: 8
+[(out, 22);
+(having, 23);
+(red, 53);
+(keyboard, 62);
 (internet, 23)]
 
 Value inserted to the heap: 12 - side
-	Current size: 4, capacity: 4
+	Current size: 6, capacity: 8
 [(side, 12);
+(having, 23);
 (out, 22);
+(keyboard, 62);
 (internet, 23);
-(having, 23)]
+(red, 53)]
 
 Value removed from the top of the heap: 12 - side
-	Current size: 4, capacity: 4
+	Current size: 6, capacity: 8
 [(out, 22);
 (having, 23);
+(red, 53);
+(keyboard, 62);
 (internet, 23)]
 
 Value removed from the top of the heap: 22 - out
-	Current size: 3, capacity: 4
-[(internet, 23);
-(having, 23)]
-
-[(internet, 23);
-(having, 23)]
-
-Value at the top of the heap: 23 - internet
-Value inserted to the heap: 24 - twenty-four
+	Current size: 5, capacity: 8
 [(internet, 23);
 (having, 23);
-(twenty-four, 24)]
+(red, 53);
+(keyboard, 62)]
 
-Value at the top of the heap: 23 - internet
 [(internet, 23);
 (having, 23);
-(twenty-four, 24)]
+(red, 53);
+(keyboard, 62)]
 
+Value at the top of the heap: 23 - internet
+Value inserted to the heap: 44 - we're
+[(internet, 23);
+(having, 23);
+(red, 53);
+(keyboard, 62);
+(we're, 44)]
+
+Value at the top of the heap: 23 - internet
 Value removed from the top of the heap: 23 - internet
 [(having, 23);
-(twenty-four, 24)]
+(we're, 44);
+(red, 53);
+(keyboard, 62)]
 
-[(having, 23);
-(twenty-four, 24)]
 
-Value removed from the top of the heap: 23 - having
-[(twenty-four, 24)]
+
+
+
+Total number of Inserts - Initialization                                 3
+Total number of heap - down actions - Initialization                     1
+Total number of user requested Inserts                                   6
+Total number of user requested Removes                                   5
+Total number of user requested Return top                                3
+Total number of user requested Print                                     2
+Total number of heap actions for user actions                            11
+	Total number of heap - up actions                                7
+	Total number of heap - down actions                              4

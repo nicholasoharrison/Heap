@@ -1,34 +1,48 @@
 
-Value inserted to the heap: 3 - worker
-	Current size: 0, capacity: 2
-Value inserted to the heap: 9 - blue
-	Current size: 1, capacity: 2
+Value inserted to the heap: 5 - two
+	Current size: 0, capacity: 3
+Value inserted to the heap: 1 - words
+	Current size: 1, capacity: 3
+Value inserted to the heap: 8 - turtle
+	Current size: 2, capacity: 3
 
 Creation of heap complete.
 
 
 
-[(worker, 3);
-(blue, 9)]
+[(words, 1);
+(two, 5);
+(turtle, 8)]
 
 
 
 
-[(worker, 3);
-(blue, 9)]
+Value inserted to the heap: 23 - dad
+[(words, 1);
+(two, 5);
+(turtle, 8);
+(dad, 23)]
 
-Value inserted to the heap: 44 - string
-[(worker, 3);
-(blue, 9);
-(string, 44)]
+Value removed from the top of the heap: 1 - words
+[(two, 5);
+(dad, 23);
+(turtle, 8)]
 
-Value removed from the top of the heap: 3 - worker
-[(blue, 9);
-(string, 44)]
+[(two, 5);
+(dad, 23);
+(turtle, 8)]
 
-Value removed from the top of the heap: 9 - blue
-[(string, 44)]
+Value at the top of the heap: 5 - two
 
-Value inserted to the heap: 44 - stringNumber2
-[(string, 44);
-(stringNumber2, 44)]
+
+
+
+Total number of Inserts - Initialization                                 3
+Total number of heap - down actions - Initialization                     1
+Total number of user requested Inserts                                   1
+Total number of user requested Removes                                   1
+Total number of user requested Return top                                1
+Total number of user requested Print                                     1
+Total number of heap actions for user actions                            2
+	Total number of heap - up actions                                0
+	Total number of heap - down actions                              2

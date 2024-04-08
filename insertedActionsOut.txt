@@ -1,0 +1,1448 @@
+
+
+Creation of heap complete.
+
+
+
+[The heap is empty]
+
+
+
+Value inserted to the heap: 37 - chair
+	Current size: 1, capacity: 10
+[(chair, 37)]
+
+Value inserted to the heap: 92 - book
+	Current size: 2, capacity: 10
+[(chair, 37);
+(book, 92)]
+
+Value inserted to the heap: 18 - lamp
+	Current size: 3, capacity: 10
+[(lamp, 18);
+(book, 92);
+(chair, 37)]
+
+Value inserted to the heap: 63 - computer
+	Current size: 4, capacity: 10
+[(lamp, 18);
+(computer, 63);
+(chair, 37);
+(book, 92)]
+
+Value inserted to the heap: 55 - table
+	Current size: 5, capacity: 10
+[(lamp, 18);
+(table, 55);
+(chair, 37);
+(book, 92);
+(computer, 63)]
+
+Value inserted to the heap: 77 - pencil
+	Current size: 6, capacity: 10
+[(lamp, 18);
+(table, 55);
+(chair, 37);
+(book, 92);
+(computer, 63);
+(pencil, 77)]
+
+Value inserted to the heap: 84 - clock
+	Current size: 7, capacity: 10
+[(lamp, 18);
+(table, 55);
+(chair, 37);
+(book, 92);
+(computer, 63);
+(pencil, 77);
+(clock, 84)]
+
+Value inserted to the heap: 49 - camera
+	Current size: 8, capacity: 10
+[(lamp, 18);
+(camera, 49);
+(chair, 37);
+(table, 55);
+(computer, 63);
+(pencil, 77);
+(clock, 84);
+(book, 92)]
+
+Value inserted to the heap: 23 - umbrella
+	Current size: 9, capacity: 10
+[(lamp, 18);
+(umbrella, 23);
+(chair, 37);
+(camera, 49);
+(computer, 63);
+(pencil, 77);
+(clock, 84);
+(book, 92);
+(table, 55)]
+
+Value inserted to the heap: 68 - keyboard
+	Current size: 10, capacity: 10
+[(lamp, 18);
+(umbrella, 23);
+(chair, 37);
+(camera, 49);
+(computer, 63);
+(pencil, 77);
+(clock, 84);
+(book, 92);
+(table, 55);
+(keyboard, 68)]
+
+Value inserted to the heap: 91 - glasses
+	Current size: 11, capacity: 20
+[(lamp, 18);
+(umbrella, 23);
+(chair, 37);
+(camera, 49);
+(computer, 63);
+(pencil, 77);
+(clock, 84);
+(book, 92);
+(table, 55);
+(keyboard, 68);
+(glasses, 91)]
+
+Value inserted to the heap: 42 - microphone
+	Current size: 12, capacity: 20
+[(lamp, 18);
+(umbrella, 23);
+(chair, 37);
+(camera, 49);
+(computer, 63);
+(microphone, 42);
+(clock, 84);
+(book, 92);
+(table, 55);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77)]
+
+Value inserted to the heap: 15 - hat
+	Current size: 13, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(camera, 49);
+(computer, 63);
+(chair, 37);
+(clock, 84);
+(book, 92);
+(table, 55);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42)]
+
+Value inserted to the heap: 72 - shoe
+	Current size: 14, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(camera, 49);
+(computer, 63);
+(chair, 37);
+(shoe, 72);
+(book, 92);
+(table, 55);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84)]
+
+Value inserted to the heap: 29 - television
+	Current size: 15, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(camera, 49);
+(computer, 63);
+(chair, 37);
+(television, 29);
+(book, 92);
+(table, 55);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72)]
+
+Value inserted to the heap: 57 - mug
+	Current size: 16, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(camera, 49);
+(computer, 63);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(table, 55);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92)]
+
+Value inserted to the heap: 88 - wallet
+	Current size: 17, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(camera, 49);
+(computer, 63);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(table, 55);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88)]
+
+Value inserted to the heap: 34 - guitar
+	Current size: 18, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(guitar, 34);
+(computer, 63);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55)]
+
+Value inserted to the heap: 61 - mirror
+	Current size: 19, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(guitar, 34);
+(computer, 63);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61)]
+
+Value inserted to the heap: 83 - scissors
+	Current size: 20, capacity: 20
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(guitar, 34);
+(computer, 63);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(keyboard, 68);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83)]
+
+Value inserted to the heap: 47 - bag
+	Current size: 21, capacity: 40
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(guitar, 34);
+(bag, 47);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(glasses, 91);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68)]
+
+Value inserted to the heap: 75 - pillow
+	Current size: 22, capacity: 40
+[(hat, 15);
+(umbrella, 23);
+(lamp, 18);
+(guitar, 34);
+(bag, 47);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(pillow, 75);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91)]
+
+Value inserted to the heap: 11 - marker
+	Current size: 23, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(pencil, 77);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75)]
+
+Value inserted to the heap: 66 - blanket
+	Current size: 24, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(blanket, 66);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77)]
+
+Value inserted to the heap: 39 - headphones
+	Current size: 25, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66)]
+
+Value inserted to the heap: 78 - calendar
+	Current size: 26, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(chair, 37);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(microphone, 42);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78)]
+
+Value inserted to the heap: 25 - phone
+	Current size: 27, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(clock, 84);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42)]
+
+Value inserted to the heap: 69 - vase
+	Current size: 28, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(vase, 69);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84)]
+
+Value inserted to the heap: 53 - socks
+	Current size: 29, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69)]
+
+Value inserted to the heap: 86 - pen
+	Current size: 30, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(shoe, 72);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86)]
+
+Value inserted to the heap: 31 - watch
+	Current size: 31, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(book, 92);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72)]
+
+Value inserted to the heap: 58 - ruler
+	Current size: 32, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92)]
+
+Value inserted to the heap: 79 - stapler
+	Current size: 33, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(mug, 57);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(wallet, 88);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79)]
+
+Value inserted to the heap: 44 - paper
+	Current size: 34, capacity: 40
+[(marker, 11);
+(hat, 15);
+(lamp, 18);
+(guitar, 34);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(paper, 44);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(mug, 57);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88)]
+
+Value inserted to the heap: 14 - scissors
+	Current size: 35, capacity: 40
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57)]
+
+Value inserted to the heap: 71 - towel
+	Current size: 36, capacity: 40
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(camera, 49);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(table, 55);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71)]
+
+Value inserted to the heap: 26 - coat
+	Current size: 37, capacity: 40
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55)]
+
+Value inserted to the heap: 87 - remote
+	Current size: 38, capacity: 40
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(mirror, 61);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87)]
+
+Value inserted to the heap: 59 - notebook
+	Current size: 39, capacity: 40
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(computer, 63);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(scissors, 83);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61)]
+
+Value inserted to the heap: 33 - soap
+	Current size: 40, capacity: 40
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83)]
+
+Value inserted to the heap: 65 - frame
+	Current size: 41, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65)]
+
+Value inserted to the heap: 82 - wallet
+	Current size: 42, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(keyboard, 68);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82)]
+
+Value inserted to the heap: 38 - calendar
+	Current size: 43, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(glasses, 91);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68)]
+
+Value inserted to the heap: 52 - umbrella
+	Current size: 44, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(umbrella, 52);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68);
+(glasses, 91)]
+
+Value inserted to the heap: 94 - camera
+	Current size: 45, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(umbrella, 52);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68);
+(glasses, 91);
+(camera, 94)]
+
+Value inserted to the heap: 76 - calculator
+	Current size: 46, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(umbrella, 23);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(bag, 47);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(umbrella, 52);
+(pillow, 75);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68);
+(glasses, 91);
+(camera, 94);
+(calculator, 76)]
+
+Value inserted to the heap: 22 - brush
+	Current size: 47, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(brush, 22);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(umbrella, 23);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(umbrella, 52);
+(bag, 47);
+(pencil, 77);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68);
+(glasses, 91);
+(camera, 94);
+(calculator, 76);
+(pillow, 75)]
+
+Value inserted to the heap: 73 - mirror
+	Current size: 48, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(brush, 22);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(umbrella, 23);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(umbrella, 52);
+(bag, 47);
+(mirror, 73);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68);
+(glasses, 91);
+(camera, 94);
+(calculator, 76);
+(pillow, 75);
+(pencil, 77)]
+
+Value inserted to the heap: 46 - headphones
+	Current size: 49, capacity: 80
+[(marker, 11);
+(scissors, 14);
+(lamp, 18);
+(hat, 15);
+(brush, 22);
+(phone, 25);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(umbrella, 23);
+(headphones, 39);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(umbrella, 52);
+(bag, 47);
+(headphones, 46);
+(blanket, 66);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68);
+(glasses, 91);
+(camera, 94);
+(calculator, 76);
+(pillow, 75);
+(pencil, 77);
+(mirror, 73)]
+
+Value inserted to the heap: 1 - nick
+	Current size: 50, capacity: 80
+[(nick, 1);
+(scissors, 14);
+(marker, 11);
+(hat, 15);
+(brush, 22);
+(lamp, 18);
+(television, 29);
+(guitar, 34);
+(coat, 26);
+(soap, 33);
+(umbrella, 23);
+(phone, 25);
+(chair, 37);
+(socks, 53);
+(watch, 31);
+(ruler, 58);
+(paper, 44);
+(camera, 49);
+(notebook, 59);
+(computer, 63);
+(calendar, 38);
+(umbrella, 52);
+(bag, 47);
+(headphones, 46);
+(headphones, 39);
+(calendar, 78);
+(microphone, 42);
+(clock, 84);
+(vase, 69);
+(pen, 86);
+(shoe, 72);
+(book, 92);
+(stapler, 79);
+(wallet, 88);
+(mug, 57);
+(towel, 71);
+(table, 55);
+(remote, 87);
+(mirror, 61);
+(scissors, 83);
+(frame, 65);
+(wallet, 82);
+(keyboard, 68);
+(glasses, 91);
+(camera, 94);
+(calculator, 76);
+(pillow, 75);
+(pencil, 77);
+(mirror, 73);
+(blanket, 66)]
+
+
+
+
+
+Total number of Inserts - Initialization                                 0
+Total number of heap - down actions - Initialization                     0
+Total number of user requested Inserts                                   50
+Total number of user requested Removes                                   0
+Total number of user requested Return top                                0
+Total number of user requested Print                                     0
+Total number of heap actions for user actions                            54
+	Total number of heap - up actions                                54
+	Total number of heap - down actions                              0
