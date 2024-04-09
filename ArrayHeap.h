@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 struct priorityData
@@ -19,6 +20,8 @@ protected:
     int capacity;
     int currentSize;
 
+
+
     void heapUp(int index) {
         while (index > 1 && heapArray[index].priorityValue < heapArray[index / 2].priorityValue) {
             counters[7]++; // Total heap up actions
@@ -27,12 +30,14 @@ protected:
         }
     }
 
+
+
     void heapDown(int index) {
         while (2 * index <= currentSize) {
             int child1 = 2 * index;
             int child2 = 2 * index + 1;
             if (child2 <= currentSize && heapArray[child2].priorityValue < heapArray[child1].priorityValue) {
-                child1++; // Sets child1 to child2 since child2 is the smaller value of the 2
+                child1++; // Sets child1 to child2 since child2 is the smaller value of the 2 (because of the if statement)
             }
             if (heapArray[index].priorityValue > heapArray[child1].priorityValue) {
                 swap(heapArray[index], heapArray[child1]);
@@ -45,17 +50,24 @@ protected:
         }
     }
 
+
+
 public:
 
     int counters[9];
+
+
 
     int getCurrentSize() {
         return currentSize;
     }
 
+
+
     int getCapacity(){
         return capacity;
     }
+
 
 
     ArrayHeap(int initialCapacity = 10) {
@@ -91,16 +103,14 @@ public:
             delete[] heapArray;
             heapArray = newArray;
         }
-        // Add the new element to the array
         currentSize++;
-        heapArray[currentSize] = p;
+        heapArray[currentSize] = p; // Add the new element to the array
         counters[0]++;
     }
 
 
 
-    void initialize() {
-        // Start heapify process from index n/2
+    void initialize() { // Heapifies the entire array after initial inserts in order they came in
         for (int i = currentSize / 2; i >= 1; i--) {
             heapDown(i);
         }
@@ -122,12 +132,10 @@ public:
             heapArray = newArray;
             capacity = newCapacity;
         }
-        // Add the new element at the end
-        currentSize++;
+        currentSize++; // Add the new element at the end
         counters[2]++; // Requested inserts (from actions file or user)
         heapArray[currentSize] = p;
-        // Restore heap by heaping up
-        heapUp(currentSize);
+        heapUp(currentSize); // Restore heap by heaping up
     }
 
 
@@ -136,12 +144,10 @@ public:
         if (currentSize == 0) {
             throw "Attempt to remove element from empty heap";
         }
-        // Swap root with the last element
-        swap(heapArray[1], heapArray[currentSize]);
+        swap(heapArray[1], heapArray[currentSize]); // Swap root with the last element
         currentSize--;
         counters[3]++; // Requested removes (from actions file or user)
-        // Restore heap property
-        heapDown(1);
+        heapDown(1); // Restore heap property
         return heapArray[currentSize + 1];
     }
 

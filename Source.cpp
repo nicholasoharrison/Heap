@@ -9,7 +9,6 @@ using namespace std;
 
 
 
-
 int main() {
 
 
@@ -84,6 +83,7 @@ int main() {
     }
 
 
+
     // Input name of action file if needed
     if (actionMode == 'F' || actionMode == 'B' || actionMode == 'f' || actionMode == 'b') {
         cout << "\nEnter the name of the action file: ";
@@ -109,7 +109,6 @@ int main() {
                     int priorityValue;
                     string strData;
                     priorityData insertedVal;
-
 
                     istringstream iss(line);
                     // Checks if each line is in the correct format then proceeds with the operations
@@ -157,7 +156,7 @@ int main() {
                         case 'A':
                             cout << pQueue.toString();
                             outputFile << pQueue.toString();
-                            pQueue.counters[5]++;
+                            pQueue.counters[5]++; // Requested print all values
                             break;
 
                         default:
@@ -235,7 +234,7 @@ int main() {
             case 'A':
                 cout << pQueue.toString();
                 outputFile << pQueue.toString();
-                pQueue.counters[5]++;
+                pQueue.counters[5]++; // Requested print all values
                 break;
             default:
                 cout << "\nInvalid action code." << endl;
