@@ -1,10 +1,10 @@
 
 Value inserted to the heap: 7 - disk
-	Current size: 0, capacity: 4
+	Current size: 0, capacity: 2
 Value inserted to the heap: 2 - at
-	Current size: 1, capacity: 4
+	Current size: 1, capacity: 2
 Value inserted to the heap: 4 - there
-	Current size: 2, capacity: 4
+	Current size: 2, capacity: 2
 Value inserted to the heap: 9 - sink
 	Current size: 3, capacity: 4
 
@@ -54,3 +54,17 @@ Value removed from the top of the heap: 1 - flower
 (disk, 7);
 (sink, 9);
 (operation, 9)]
+
+
+
+
+
+Total number of Inserts - Initialization                                 4
+Total number of heap - down actions - Initialization                     1
+Total number of user requested Inserts                                   2
+Total number of user requested Removes                                   2
+Total number of user requested Return top                                1
+Total number of user requested Print                                     1
+Total number of heap actions for user actions                            6
+	Total number of heap - up actions                                2
+	Total number of heap - down actions                              4

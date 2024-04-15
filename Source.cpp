@@ -56,7 +56,7 @@ int main() {
     // Input file reading
     string line;
     priorityData insertData;
-    while (inputFile >> insertData.priorityValue >> insertData.dataValue) {
+    while (inputFile >> insertData.priorityValue >> insertData.dataValue) { // Checks formatting of file and inputs the file data into correct variables in one step
         outputFile << "\nValue inserted to the heap: " << insertData.priorityValue << " - " << insertData.dataValue;
         outputFile << "\n\tCurrent size: " << pQueue.getCurrentSize() << ", capacity: " << pQueue.getCapacity();
         pQueue.addInitialValues(insertData);

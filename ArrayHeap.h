@@ -5,8 +5,7 @@
 
 using namespace std;
 
-struct priorityData
-{
+struct priorityData{
 	string dataValue;
 	int    priorityValue;
 };
